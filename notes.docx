@@ -1,0 +1,16 @@
+- What is Tanstack query & why would you use it?
+
+- Fetching & Mutating Data
+
+- Configuring Tanstack query
+
+- Cache Validation
+
+- Optimistic Updates
+
+- Task
+    In the event details component fetch the Data
+    useQuery to fetch the data
+    output the event details
+    useMutation to update the data
+    
