@@ -6,7 +6,7 @@ export default function EventItem({ event }) {
     month: 'short',
     year: 'numeric',
   })
-  const img_src = 'http://localhost:3000/' + event.image
+  const img_src = 'https://event-creater-app.onrender.com/' + event.image
   console.log(img_src)
   return (
     <article className="event-item">

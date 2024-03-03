@@ -31,6 +31,7 @@ export default function EventDetails() {
       navigate('/events')
     },
   })
+  const baseURL = 'https://event-creater-app.onrender.com'
   function HandleStartDelete() {
     setIsDeleting(true)
   }
@@ -79,7 +80,7 @@ export default function EventDetails() {
           </nav>
         </header>
         <div id="event-details-content">
-          <img src={`http://localhost:3000/${data.image}`} alt={data.title} />
+          <img src={`${baseURL}/${data.image}`} alt={data.title} />
           <div id="event-details-info">
             <div>
               <p id="event-details-location">{data.location}</p>
